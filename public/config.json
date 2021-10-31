@@ -18,21 +18,21 @@
       "execute": {
         "inArguments": [],
         "outArguments": [],
-        "url": "https://finder-number.herokuapp.com/execute"
+        "url": "https://finder-number.herokuapp.com"
       }
     },
     "configurationArguments": {
       "save": {
-        "url": "https://finder-number.herokuapp.com/save"
+        "url": "https://finder-number.herokuapp.com"
       },
       "publish": {
-        "url": "https://finder-number.herokuapp.com/publish"
+        "url": "https://finder-number.herokuapp.com"
       },
       "validate": {
-        "url": "https://finder-number.herokuapp.com/validate"
+        "url": "https://finder-number.herokuapp.com"
       },
       "stop": {
-        "url": "https://finder-number.herokuapp.com/stop"
+        "url": "https://finder-number.herokuapp.com"
       }
     },
     "userInterfaces": {
