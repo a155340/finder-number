@@ -18,21 +18,22 @@
       "execute": {
         "inArguments": [],
         "outArguments": [],
-        "url": "https://finder-number.herokuapp.com"
+        "url": "https://finder-number.herokuapp.com/rest"
       }
     },
     "configurationArguments": {
+      "applicationExtensionKey":"23758736-82e1-4677-92ee-5b60cc9766d4",
       "save": {
-        "url": "https://finder-number.herokuapp.com"
+        "url": "https://finder-number.herokuapp.com/rest"
       },
       "publish": {
-        "url": "https://finder-number.herokuapp.com"
+        "url": "https://finder-number.herokuapp.com/rest"
       },
       "validate": {
-        "url": "https://finder-number.herokuapp.com"
+        "url": "https://finder-number.herokuapp.com/rest"
       },
       "stop": {
-        "url": "https://finder-number.herokuapp.com"
+        "url": "https://finder-number.herokuapp.com/rest"
       }
     },
     "userInterfaces": {
