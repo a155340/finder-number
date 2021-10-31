@@ -16,19 +16,8 @@
     },
     "arguments": {
       "execute": {
-        "inArguments": [
-          {
-            "emailAddress": "{{InteractionDefaults.Email}}"
-          },
-          {
-            "phoneNumber": "{{Contact.Default.PhoneNumber}}"
-          }
-        ],
-        "outArguments": [
-          {
-            "foundSignupDate": ""
-          }
-        ],
+        "inArguments": [],
+        "outArguments": [],
         "url": "https://finder-number.herokuapp.com/execute"
       }
     },
