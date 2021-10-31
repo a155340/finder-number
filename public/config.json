@@ -1,0 +1,79 @@
+{
+    "workflowApiVersion": "1.1",
+    "metaData": {
+      "icon": "images/icon.png",
+      "category": "flow"
+    },
+    "type": "REST",
+    "lang": {
+      "en-US": {
+        "name": "REST Activity (Workflow API v1.1)",
+        "description": "An example REST activity using workflow API v1.1 format."
+      }
+    },
+    "arguments": {
+      "execute": {
+        "inArguments": [
+          {
+            "emailAddress": "{{InteractionDefaults.Email}}"
+          },
+          {
+            "phoneNumber": "{{Contact.Default.PhoneNumber}}"
+          }
+        ],
+        "outArguments": [
+          {
+            "foundSignupDate": ""
+          }
+        ],
+        "url": "https://some-endpoint.com/execute"
+      }
+    },
+    "configurationArguments": {
+      "save": {
+        "url": "URI/for/your/activity/save"
+      },
+      "publish": {
+        "url": "URI/for/your/activity/publish"
+      },
+      "validate": {
+        "url": "URI/for/your/activity/validate"
+      },
+      "stop": {
+        "url": "URI/for/your/activity/stop"
+      }
+    },
+    "userInterfaces": {
+    },
+    "schema": {
+      "arguments": {
+        "execute": {
+          "inArguments": [
+            {
+              "phoneNumber": {
+                "dataType": "Phone",
+                "isNullable": false,
+                "direction": "in"
+              }
+            },
+            {
+              "emailAddress": {
+                "dataType": "Email",
+                "isNullable": false,
+                "direction": "in"
+              }
+            }
+          ],
+          "outArguments": [
+            {
+              "foundSignupDate": {
+                "dataType": "Date",
+                "direction": "out",
+                "access": "visible"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
