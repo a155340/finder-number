@@ -3,7 +3,9 @@
     "metaData": {
       "icon": "images/icon.png",
       "iconSmall": "images/iconSmall.png",
-      "category": "flow"
+      "category": "flow",
+      "isConfigured": true,
+      "configurationDisabled": true
     },
     "type": "REST",
     "lang": {
@@ -45,36 +47,5 @@
       }
     },
     "userInterfaces": {
-    },
-    "schema": {
-      "arguments": {
-        "execute": {
-          "inArguments": [
-            {
-              "phoneNumber": {
-                "dataType": "Phone",
-                "isNullable": false,
-                "direction": "in"
-              }
-            },
-            {
-              "emailAddress": {
-                "dataType": "Email",
-                "isNullable": false,
-                "direction": "in"
-              }
-            }
-          ],
-          "outArguments": [
-            {
-              "foundSignupDate": {
-                "dataType": "Date",
-                "direction": "out",
-                "access": "visible"
-              }
-            }
-          ]
-        }
-      }
     }
   }
